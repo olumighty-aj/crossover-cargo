@@ -8,7 +8,7 @@ export const NavBar = () => {
 
  
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light '>
+    <nav className='navbar navbar-expand-lg navbar-light bg-light mb-3 '>
     <div className="container-fluid">
      
       <img src={logo} alt="Upfront Courier Logo" className="logo-img" />
