@@ -1,0 +1,39 @@
+.hero-section {
+    background-color: #f8f9fa;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons .btn {
+    margin-right: 15px;
+    padding: 10px 25px;
+  }
+  
+  .stats .stat-item {
+    margin-right: 30px;
+    text-align: center;
+  }
+  
+  .stats h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .stats span {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
