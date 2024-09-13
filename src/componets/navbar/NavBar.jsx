@@ -1,10 +1,15 @@
-
+import  { useState } from 'react';
 import './navbar.css';
 import logo from '/cargologo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
 
  
   return (
@@ -21,10 +26,11 @@ export const NavBar = () => {
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        onClick={toggleNavbar}
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
+      <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}  id="navbarNav">
         <ul className='navbar-nav ms-auto'>
           <li className="nav-item">
               HOME

@@ -17,7 +17,56 @@
     color: white;
   }
 
+  .navbar-collapse{
+    background-color: #dc3545;
+  position: absolute;
+  margin-top: 142%;
+  left: 20px;
+  padding: 30px;
+  color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: all 0.5s ease-in-out;
+  }
+
+
+.navbar-collapse.collapse {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.navbar-collapse.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.navbar-toggler {
+  z-index: 2; /* Ensures the toggler is on top of the nav */
+}
+
+.navbar-toggler-icon {
+  /* background-color: white;
+  border-radius: 50%;
+  padding: 5px; */
+}
  
+
+
+  @media only screen and (max-width: 767px) {
+    .navbar-collapse.nav-item:hover{
+      color: #dc3545;
+      font-weight: 700;
+      background-color: white;
+      border-radius: 10px;
+      margin-right: 10px;
+      margin-right: 10px;
+    }
+
+    .navbar{
+      padding: 30px;
+      border-radius: 10px;
+    }
+  }
   .logo-img {
     width: 150px; 
     height: auto;
