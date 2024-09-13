@@ -1,7 +1,5 @@
-
-
   .track-btn {
-    background-color: red;
+    background-color: #dc3545;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -10,10 +8,13 @@
     transition: background-color 0.3s ease;
   }
   
+  .navbar{
+    padding: 30px;
+  }
+
   .track-btn:hover {
     background-color: green;
     color: white;
-
   }
 
  
@@ -26,20 +27,28 @@
   .active:hover{
     color: white;
     font-weight: 700;
-    background-color: orangered;
-    border-radius: 10px;
+    background-color: #dc3545;
+    border-radius: 10px; 
+  }
+
+  .navbar-toggler{
+    background-color: #dc3545;
     
   }
 
-  .nav-link:hover{
+ 
+  .nav-item:hover{
     color: white;
     font-weight: 700;
-    background-color: orangered;
+    background-color: #dc3545;
     border-radius: 10px;
     margin-right: 10px;
     margin-right: 10px;
-
   }
+
+.nav-item{
+  padding: 10px;
+}
   
 
 .slide-out {

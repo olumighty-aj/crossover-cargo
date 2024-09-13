@@ -25,33 +25,37 @@ export const Services = () => {
         <FontAwesomeIcon icon={faClipboardCheck} size="2x" className='icon' />
           <div className='top-sub'>
             <h5 className='top-header'>Booking</h5>
-            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#more">More...</a></p>
           </div>
+          
         </div>
+        <p className='top-bottom'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#more">More...</a></p>
 
         <div className="service-item d-flex mb-4">
         <FontAwesomeIcon icon={faTruck} size="2x" className='icon' />
           <div className='top-sub'>
             <h5 className='top-headerr'>Transportation</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#more">More...</a></p>
+           
           </div>
         </div>
+        <p className='top-bottom'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#more">More...</a></p>
 
         <div className="service-item d-flex mb-4">
         <FontAwesomeIcon icon={faBox} size="2x"  className='icon' />
           <div className='top-sub'>
             <h5 className='top-header'>Packing</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#more">More...</a></p>
+            
           </div>
         </div>
+        <p className='top-bottom'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#more">More...</a></p>
 
         <div className="service-item d-flex mb-4">
         <FontAwesomeIcon icon={faShoppingCart} size="2x" className='icon' />
           <div className='top-sub'>
             <h5 className='top-header'>Delivery</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#more">More...</a></p>
+           
           </div>
         </div>
+        <p className='top-bottom'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a href="#more">More...</a></p>
       </div>
     </div>
   </div>

@@ -27,27 +27,19 @@ export const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className='navbar-nav ms-auto'>
           <li className="nav-item">
-           
               HOME
-          
           </li>
           <li className="nav-item">
-           
             TRACK A SHIPMENT
-           
           </li>
           <li className="nav-item">
-           
             CONTACT US
-           
           </li>
           <li className="nav-item">
-           
             MAKE PAYMENT
-           
           </li>
           <li>
-          <button className="track-btn">
+          <button className="track-btn btn-btn-danger">
          Track
           </button>
           </li>

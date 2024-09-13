@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="row align-items-center">
         {/* Left Column: Text and Buttons */}
         <div className="col-lg-6 col-md-12 text-start">
-          <h1>Your destination is our passion.</h1>
+          <h1>YOUR <span className='dest'>DESTINATION</span>  IS OUR <span className='pass'>PASSION.</span></h1>
           <p className="lead">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.
           </p>
@@ -20,7 +20,7 @@ export const Hero = () => {
           {/* Stats Section */}
           <div className="stats d-flex mt-4">
             <div className="stat-item">
-              <h5>100K</h5>
+              <h5 className='count'>100K</h5>
               <span>Parcels Delivered</span>
             </div>
             <div className="stat-item">

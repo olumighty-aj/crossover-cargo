@@ -20,3 +20,13 @@
     margin-top: 20px;
   }
   
+  .calcu{
+    background-color: #dc3545;
+    color: white;
+  }
+
+  .calcu:hover{
+    background-color: white;
+    color:  #dc3545;
+    border: 1px solid  #dc3545;
+  }

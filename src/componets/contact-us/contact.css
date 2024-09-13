@@ -1,0 +1,52 @@
+.titlepage{
+    color: #dc3545;
+    font-weight: 800;
+
+}
+
+.contac_control{
+    padding: 10px;
+    width: 60%;
+    margin: 7px;
+    border: 2px solid #dc3545;
+    border-radius: 100px;
+
+}
+
+.contac_control::placeholder{
+    color: #dc3545;
+}
+
+.textarea{
+    padding: 10px;
+    width: 60%;
+    margin: 7px;
+    border: 2px solid #dc3545;
+    border-radius: 20px;
+    
+}
+
+.textarea::placeholder{
+    color: #dc3545;
+}
+
+.send_btn{
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    width: 20%;
+    border-radius: 100px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 767px) {
+    .contac_control{
+        padding: 10px;
+        width: 100%;
+        margin: 5px;
+        border: 2px solid #dc3545;
+        border-radius: 20px;
+    
+    }
+  }

@@ -17,6 +17,8 @@
   .service-item h5 {
     font-size: 1.25rem;
     margin-bottom: 5px;
+    float: left;
+    margin-left: 16px;
   }
   
   .service-item p {
@@ -39,6 +41,12 @@
     color: #dc3545;
   }
 
+  .top-bottom{
+      margin-left: 40px;
+      margin-top: -23px;
+      width: 400px;
+      text-align: start;
+  }
 
   .top-sub p{
     width:80%;
@@ -53,4 +61,13 @@
 
   .icon{
     color: #dc3545;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .top-bottom{
+      margin-left: 40px;
+      margin-top: -23px;
+      width: 200px;
+      text-align: start;
+  }
   }

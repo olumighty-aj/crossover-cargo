@@ -13,7 +13,7 @@ export const Quote = () => {
             <p className="text-light">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
             </p>
-            <button className="btn btn-danger">Calculate Price</button>
+            <button className="btn calcu">Calculate Price</button>
           </div>
           
           {/* Right Image Section */}
