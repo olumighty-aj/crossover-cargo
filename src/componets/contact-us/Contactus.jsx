@@ -1,6 +1,27 @@
+import  { useRef } from 'react';
 import './contact.css';
+import emailjs from 'emailjs-com';
 
 export const Contactus = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_swbd5pp', 'template_sdr2cj8', form.current, {
+            publicKey: 'ndGlGqc9lk3xc1DvA',
+        })
+          .then((result) => {
+              console.log(result.text);
+              alert("Message sent successfully!");
+          }, (error) => {
+              console.log(error.text);
+              alert("Failed to send the message, please try again.");
+          });
+    
+        e.target.reset();  
+      };
+
   return (
     <div className="contact">
          <div className="container">
@@ -14,7 +35,7 @@ export const Contactus = () => {
             </div>
             <div className="row">
                <div className="col-md-10 offset-md-1">
-                  <form id="contac_form" className="contac_form" action="" method="post">
+                  <form id="contac_form" className="contac_form" ref={form} onSubmit={sendEmail}>
                      <div className="row">
                         <div className="col-md-12 ">
                            <input className="contac_control" placeholder=" Full Name" type="type" name="Name" required /> 
@@ -26,7 +47,7 @@ export const Contactus = () => {
                            <input className="contac_control" placeholder="Email Address" type="type" name="Email" required />                          
                         </div>
                         <div className="col-md-12">
-                           <textarea className="textarea" placeholder="Message" type="type" >Message </textarea>
+                           <textarea className="textarea" placeholder="Message" type="type" ></textarea>
                         </div>
                         <div className="col-md-12">
                            <button type="submit" className="send_btn">Send</button>

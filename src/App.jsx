@@ -1,4 +1,5 @@
 import './App.css'
+import { ChatBot } from './componets/chatBot/ChatBot'
 import { ChooseUs } from './componets/choseus/ChooseUs'
 import { Contactus } from './componets/contact-us/Contactus'
 import Footer from './componets/footer/Footer'
@@ -21,6 +22,7 @@ function App() {
       <ChooseUs />
       <Contactus />
       <Footer />
+      <ChatBot />
       
     </>
   )
